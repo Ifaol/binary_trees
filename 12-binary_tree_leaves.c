@@ -30,6 +30,8 @@ return (0);
 }
 else
 {
-return (binary_tree_is_leaf(tree) + binary_tree_leaves(tree->right) + binary_tree_leaves(tree->left));
+return (binary_tree_is_leaf(tree) +
+	binary_tree_leaves(tree->right) +
+	binary_tree_leaves(tree->left));
 }
 }
